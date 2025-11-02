@@ -7,6 +7,9 @@
     [build.eviroment]
         FLUTTER_VERSION = "3.35.4"
 
+    [[plugins]]
+        package = "netlify-plugin-flutter"
+
     [[redirects]]
         from = "/*"
         to = "/index.html"
